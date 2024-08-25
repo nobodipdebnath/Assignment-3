@@ -247,43 +247,44 @@
             <button class="py-2 px-3 bg-[#ABEF5F33] mb-4 -mt-16 md:-mt-16 lg:mt-[100px] rounded-3xl text-[16px] font-bold text-[#494949]"><i class="fa-solid fa-arrow-right mr-1"></i> Explore our Latest works</button>
           </div>
           <h1 class="text-center font-bold text-[#212121] mb-6 text-4xl md:text-[40px]">Our Latest Portfolio</h1>
-          <p class="text-center text-[#494949] text-[16px] mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+          <p class="text-center text-[#494949] text-[16px] mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="md:block hidden"> featuring weathered wood, sleek metal accents.</p>
           <div>
-            <div class="grid grid-cols-1 lg:grid-cols-12 grid-rows-2 gap-6">
-              <div class=" rounded-xl border bg-white border-gray-200 col-span-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+              <div class=" rounded-xl border bg-white border-gray-200 col-span-1 md:col-span-8">
                 <div class="p-6 flex flex-col md:flex-row gap-6">
                   <div>
                     <img class="h-auto w-[260px] mt-1" src="image/img1.png" alt="">
                   </div>
                   <div>
                     <h3 class="text-[#494949] text-2xl font-extrabold mb-4">Commercial</h3>
-                    <p class="text-[#737373] text-[16px] mb-6">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
+                    <p class="text-[#737373] text-[16px] mb-6">The barn house captivates with its blend of rustic charm <br class="md:block hidden"> and modern. The barn house captivates with its blend of <br class="md:block hidden"> rustic charm and modern .</p>
                     <h3 class="text-[#212121] font-extrabold">View Details <i class="fa-solid fa-arrow-right -rotate-45 p-2 rounded-full bg-[#ABEF5F]"></i></h3>
                   </div>
                 </div>
               </div>
-              <div class="border bg-white border-gray-200 rounded-xl p-6 col-span-4">
-                <img class="mt-2 ml-2" src="image/img2.png" alt="" />
+              <div class="border bg-white border-gray-200 rounded-xl p-6 col-span-1 md:col-span-4">
+                <img class="mt-1 ml-1 md:ml-0 md:mt-5 lg:mt-0" src="image/img2.png" alt="" />
               </div>
 
-              <div class=" border bg-white border-gray-200 rounded-xl p-6 col-span-3">
+              <div class=" border bg-white border-gray-200 rounded-xl p-6 col-span-1 md:col-span-4 lg:col-span-3">
                 <img class="mx-auto w-full h-[]" src="image/img3.png" alt="" />
               </div>
-              <div class="rounded-xl bg-white border border-gray-200 flex p-6 gap-6 col-span-6">
+              <div class="rounded-xl bg-white border border-gray-200 flex flex-col md:flex-row p-6 gap-6 col-span-1 md:col-span-8 lg:col-span-6">
                 <div>
                   <img class="w-[260px] h-auto mt-1" src="image/img4.png"alt="">
                 </div>
                 <div>
                   <h3 class="text-[#494949] text-2xl font-extrabold mb-4">Commercial</h3>
-                    <p class="text-[#737373] text-[16px] mb-6">The barn house captivates with <br> its blend of rustic charm and <br> modern.</p>
+                    <p class="text-[#737373] text-[16px] mb-6">The barn house captivates with <br class="md:block hidden"> its blend of rustic charm and modern.</p>
                     <h3 class="text-lg text-[#212121] font-extrabold">View Details <i class="fa-solid fa-arrow-right -rotate-45 p-2 rounded-full bg-[#ABEF5F]"></i></h3>
                 </div>
               </div>
-              <div class="border bg-white border-gray-200 rounded-xl p-6 col-span-3">
+              <div class="border bg-white border-gray-200 rounded-xl p-6 col-span-1 md:col-span-4 lg:col-span-3">
                 <img class="w-full h-auto" src="image/img5.png" alt="">
               </div>
-              <!-- <div class="h-38 bg-gradient-to-r from-stone-200 to-stone-100 rounded-xl col-span-1">
-              </div> -->
+              <div class="border lg:hidden bg-white border-gray-200 rounded-xl p-6 col-span-1 md:col-span-4 md:mb-0 -mb-[150px]">
+                <img class="w-full h-auto md:mt-3 lg:mt-0" src="image/img3.png" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -352,6 +353,77 @@
           </div>
         </div>
        </section>
+       <section class="">
+        <div class="flex justify-center items-center">
+          <button class="text-lg font-bold py-2 px-5 rounded-3xl text-[#212121] mb-4 bg-white"><i class="fa-solid fa-arrow-right mr-2"></i>Our Review</button>
+        </div>
+        <h1 class="text-center text-4xl font-bold text-[#212121] mb-6">What Our Student Says</h1>
+        <p class="text-center text-[16px] text-[#494949] mb-6">Students can be either full-time or part-time, depending on their enrollment status.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-4/5 mx-auto">
+            <div class="flex flex-col md:flex-row bg-white rounded-xl p-5 md:mb-6">
+                <div class="flex justify-center items-center md:hidden">
+                  <img class="rounded-full h-20 w-20 mr-5" src="image/anu.jpg">
+                </div>
+                <img class="rounded-full h-20 w-20 mr-5 hidden md:block" src="image/anu.jpg">
+                <div>
+                    <p class="text-[16px] text-[#494949] mb-2">You're an awesome student. Every day, you put a smile on my face with your positive attitude. Keep up the good work.</p>
+                    <h1 class="text-4xl font-bold text-[#212121]">Äñúrãdhä Møhòñtô</h1>
+                    <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                    <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                    <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                    <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                    <i class="fa fa-star-o text-red-600" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="flex md:flex-row flex-col bg-white rounded-xl p-5 mb-6">
+              <div class="flex justify-center items-center md:hidden">
+                <img class="rounded-full h-20 w-20 mr-5" src="image/nobodip.png">
+              </div>
+              <img class="rounded-full h-20 w-20 mr-5 hidden md:block" src="image/nobodip.png">
+                <div>
+                    <p class="text-[16px] text-[#494949] mb-2">You've been an ideal student. Your desire to learn and grow means a lot to me as a teacher. I'm very glad to have you</p>
+                    <h1 class="text-4xl font-bold text-[#212121]">Nobodip Debnath</h1>
+                    <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                    <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                    <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                    <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o text-red-600" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-4/5 mx-auto">
+          <div class="flex md:flex-row flex-col bg-white rounded-xl p-5 md:mb-24">
+            <div class="flex justify-center items-center md:hidden">
+              <img class="rounded-full h-20 w-20 mr-5" src="image/sima.png">
+            </div>
+            <img class="rounded-full h-20 w-20 mr-5 hidden md:block" src="image/sima.png">
+              <div>
+                  <p class="text-[16px] text-[#494949] mb-2">You're an awesome student. Every day, you put a smile on my face with your positive attitude. Keep up the good work.</p>
+                  <h1 class="text-4xl font-bold text-[#212121]">Sima Akhter</h1>
+                  <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                  <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                  <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                  <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                  <i class="fa fa-star-o text-red-600" aria-hidden="true"></i>
+              </div>
+          </div>
+          <div class="flex md:flex-row flex-col bg-white rounded-xl p-5 mb-24">
+            <div class="flex justify-center items-center md:hidden">
+              <img class="rounded-full h-20 w-20 mr-5" src="image/mehedi.png">
+            </div>
+            <img class="rounded-full h-20 w-20 mr-5 hidden md:block" src="image/mehedi.png">
+              <div>
+                  <p class="text-[16px] text-[#494949] mb-2">You've been an ideal student. Your desire to learn and grow means a lot to me as a teacher. I'm very glad to have you</p>
+                  <h1 class="text-4xl font-bold text-[#212121]">Mahedi Hasaan</h1>
+                  <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                  <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                  <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                  <i class="fa fa-star text-red-600" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o text-red-600" aria-hidden="true"></i>
+              </div>
+          </div>
+      </div>
+    </section>
        <!-- Next project Section -->
         <Section class="file-img">
           <div class="w-4/5 mx-auto">
@@ -360,7 +432,7 @@
             </div>
             <h1 class="text-center text-5xl md:text-[40px] font-bold mb-6 text-[#212121]">Let’s Discuss Next Project</h1>
             <p class="text-center text-[16px] text-[#494949] mb-8">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <input
                   type="text"
